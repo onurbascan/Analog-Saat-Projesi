@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/clock_analog_dial"
+        android:scaleType="fitCenter"/>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <AnalogClock
+            android:id="@+id/analog_appwidget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:dial="@drawable/asfaltlight"
+            android:hand_hour="@drawable/clock_analog_hour_mipmap"
+            android:hand_minute="@drawable/clock_analog_minute_mipmap"
+            android:layout_marginBottom="@dimen/bottom_text_spacing_analog"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

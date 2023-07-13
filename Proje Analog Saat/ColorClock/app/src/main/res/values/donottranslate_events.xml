@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="https://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <string name="category_alarm">Alarm</string>
+    <string name="category_clock">Clock</string>
+    <string name="category_timer">Timer</string>
+    <string name="category_stopwatch">Stopwatch</string>
+
+
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_snooze">Snooze</string>
+    <string name="action_create">Create</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_update">Update</string>
+    <string name="action_start">Start</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_fire">Fire</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_show">Show</string>
+    <string name="action_add_minute">Add Minute</string>
+    <string name="action_lap">Lap</string>
+
+
+    <string name="label_deskclock">DeskClock</string>
+    <string name="label_notification">Notification</string>
+    <string name="label_intent">Intent</string>
+</resources>

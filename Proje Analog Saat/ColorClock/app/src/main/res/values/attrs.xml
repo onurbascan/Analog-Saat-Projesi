@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <declare-styleable name="AnalogClock">
+        <attr name="jewelRadius" format="dimension"/>
+        <attr name="jewelOffset" format="dimension"/>
+        <attr name="jewelColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="TextTime">
+
+        <attr name="format12Hour" format="string"/>
+
+        <attr name="format24Hour" format="string"/>
+   </declare-styleable>
+
+    <declare-styleable name="CircleView">
+
+        <attr name="android:gravity" />
+
+        <attr name="fillColor" format="color" />
+
+        <attr name="centerX" format="dimension" />
+
+        <attr name="centerY" format="dimension" />
+
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+</resources>
